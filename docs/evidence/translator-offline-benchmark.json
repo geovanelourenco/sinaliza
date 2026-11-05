@@ -1,0 +1,1019 @@
+{
+  "kind": "exploratory_upstream_rule_based_only",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "cpu_count": 3,
+  "versions": {
+    "vlibras-translator": "1.3.3",
+    "spacy": "3.7.5",
+    "nltk": "3.9.4",
+    "numpy": "1.26.0",
+    "joblib": "1.2.0",
+    "pt-core-news-md": "3.7.0"
+  },
+  "network_policy": "audit hook blocks socket.connect and socket.getaddrinfo before upstream import",
+  "network_attempts": [],
+  "import_ms": 1545.6244129999277,
+  "init_ms": 7155.919250000011,
+  "first_calls": [
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 23.593965000031858
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 16.425456999968446
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 48.35852999997314
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 21.189413999991302
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 18.61354899995149
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 48.12125700004799
+    }
+  ],
+  "warm_aggregate": {
+    "n": 180,
+    "p50_ms": 19.895337500031474,
+    "p95_ms": 53.786757000011676,
+    "min_ms": 13.705300999959036,
+    "max_ms": 81.12052500007394
+  },
+  "warm_by_text": [
+    {
+      "text": "Olá mundo.",
+      "n": 30,
+      "p50_ms": 17.01217749996431,
+      "p95_ms": 50.51026199998887,
+      "min_ms": 13.705300999959036,
+      "max_ms": 55.75253500001054
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "n": 30,
+      "p50_ms": 20.35914399999683,
+      "p95_ms": 50.17957899997327,
+      "min_ms": 15.419631999975536,
+      "max_ms": 55.825593000008666
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "n": 30,
+      "p50_ms": 20.3142550000166,
+      "p95_ms": 50.66788199997063,
+      "min_ms": 14.134607000073629,
+      "max_ms": 81.12052500007394
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "n": 30,
+      "p50_ms": 18.870698499995342,
+      "p95_ms": 54.124347999959355,
+      "min_ms": 15.04572199996801,
+      "max_ms": 55.6680370000322
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "n": 30,
+      "p50_ms": 16.745989500009273,
+      "p95_ms": 53.24412300001313,
+      "min_ms": 14.043142999980773,
+      "max_ms": 56.9788459999927
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "n": 30,
+      "p50_ms": 22.092373000077714,
+      "p95_ms": 55.105543000081525,
+      "min_ms": 17.531822000023567,
+      "max_ms": 56.12898899994434
+    }
+  ],
+  "benchmark_cpu_seconds": 3.348245265,
+  "benchmark_wall_seconds": 4.928482539000015,
+  "max_rss_kib": 542640,
+  "samples": [
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 18.841921000102957
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 20.33800499998506
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 21.218743000076756
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 47.916849999978695
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 15.210741000032613
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 17.531822000023567
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 20.372328000007656
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 46.865177999961816
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 17.89802200005397
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 17.606077999971603
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 56.9788459999927
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 20.30653099996016
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 15.896852999958355
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 19.08116599997811
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 46.77025800003776
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 15.04572199996801
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 16.885478000062903
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 18.507095000018126
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 13.73238400003629
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 42.75989899997512
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 22.914877999937744
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 18.260141000041585
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 53.24412300001313
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 18.187191000038183
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 16.84952899995551
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 20.380283000008603
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 44.48867099995368
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 16.34850400000687
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 14.954448000025877
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 20.920634000049176
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 43.88065499995264
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 15.779090000023643
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 81.12052500007394
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 15.855643999998392
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 15.393335999988267
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 18.262670000012804
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 15.338040000074216
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 48.123319999945124
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 32.99792999996498
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 53.50650700006554
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 15.739891000066564
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 22.134244000085346
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 17.91681999998218
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 46.938906000036695
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 26.99366399997416
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 16.41011999993225
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 19.738398999948004
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 53.515077000042766
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 15.781238999920788
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 17.965290000006462
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 49.99778499995955
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 20.137516999966465
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 20.271302999958607
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 21.91582099999323
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 46.937643999967804
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 19.554786999947282
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 20.21263500000714
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 51.287938999962535
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 32.82116399998358
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 28.990355000019008
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 42.26810599993769
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 18.122704000006706
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 17.955192999920655
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 17.465597000068556
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 47.96361299997898
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 19.031796000035683
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 15.783100999897215
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 19.593124999914835
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 45.01136700002917
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 16.851674000008643
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 30.15682799991737
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 55.105543000081525
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 29.376814999977796
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 24.7824609999725
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 46.56571199996051
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 18.30068599997503
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 16.52158199999576
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 53.786757000011676
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 15.098421999937273
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 19.108220000020992
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 18.173597999975755
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 55.6680370000322
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 16.12502900002255
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 21.915061999948193
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 17.17482599997311
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 47.428676999970776
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 15.746268000043528
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 17.61204000001726
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 16.838602000007086
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 44.17506999993748
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 13.705300999959036
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 21.78834000005736
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 18.846244999963346
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 42.269432000011875
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 16.65337700001146
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 20.123160000025564
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 22.673585000006824
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 50.13420400007362
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 16.131898000026013
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 17.717732000051
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 14.043142999980773
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 50.71516300006351
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 14.76639800000612
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 15.419631999975536
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 20.528795000018363
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 51.03297799996653
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 14.729603999967367
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 19.81993300000795
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 15.895357000090371
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 40.70993600009842
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 18.778276999910304
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 19.440711000015654
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 22.5905680000551
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 56.12898899994434
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 15.967165999995814
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 18.87184499992145
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 50.66788199997063
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 16.057226000043556
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 15.771994000033374
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 22.050502000070082
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 55.75253500001054
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 22.619739999981903
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 19.048060000045552
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 54.124347999959355
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 15.810455999940132
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 23.850390999996307
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 17.874914000003628
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 40.1636580000968
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 18.542754000009154
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 23.591786999986653
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 50.51645099990765
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 21.516273000088404
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 15.426452000042445
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 20.322356999940894
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 43.08649000006426
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 17.443426999989242
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 15.013640999995914
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 20.306052000023556
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 50.51026199998887
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 17.645732999994834
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 16.308158000015283
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 19.970742000054997
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 50.31693900002665
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 25.421649999998408
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 17.95488999994177
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 16.514752000034605
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 44.20369299998583
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 17.37173999993047
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 23.720648999983496
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 53.84864799998468
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 15.144070000019383
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 15.657438999937767
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 20.415875000026062
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 51.005562999989706
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 18.12520200007839
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 23.045070999955897
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 20.68989999997939
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 55.825593000008666
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 19.757511999955568
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 52.93866600004549
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 15.658396999924662
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 20.329371999991963
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 19.19320499996502
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 50.17957899997327
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 18.37058099999922
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 29.696467999997367
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 16.253973000061706
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 49.10083400000076
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 15.472039999963272
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 18.700689999946007
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 14.134607000073629
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 47.73255699990386
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 16.494642999987263
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 22.856190999959836
+    },
+    {
+      "text": "Olá mundo.",
+      "gloss": "OLÁ MUNDO [PONTO]",
+      "ms": 16.48414999999659
+    },
+    {
+      "text": "Eu gosto de estudar.",
+      "gloss": "EU GOSTO ESTUDAR [PONTO]",
+      "ms": 42.63744399997904
+    },
+    {
+      "text": "Nós vamos ao mercado amanhã.",
+      "gloss": "NÓS IR MERCADO AMANHÃ [PONTO]",
+      "ms": 16.4107639999429
+    },
+    {
+      "text": "Quanto custa o livro?",
+      "gloss": "QUANTO CUSTAR LIVRO [INTERROGAÇÃO]",
+      "ms": 17.20768199993472
+    },
+    {
+      "text": "Tenho 25 anos.",
+      "gloss": "TER 25 ANO [PONTO]",
+      "ms": 17.535038000005443
+    },
+    {
+      "text": "A professora explicou a matéria e os alunos fizeram perguntas sobre o livro.",
+      "gloss": "PROFESSOR EXPLICAR MATÉRIA ALUNO FAZER PERGUNTA SOBRE LIVRO [PONTO]",
+      "ms": 51.32054299997435
+    }
+  ],
+  "limitations": [
+    "No neural model",
+    "No Sinaliza implementation",
+    "No remote VLibras service",
+    "New process but OS filesystem caches not flushed",
+    "Exploratory synthetic corpus; not linguistic validation"
+  ]
+}
