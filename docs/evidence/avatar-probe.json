@@ -1,0 +1,495 @@
+{
+  "startedAt": "2026-11-05T13:26:19.148Z",
+  "environment": {
+    "node": "v24.22.1",
+    "playwright": "1.62.1",
+    "chromium": "155.0.8059.79"
+  },
+  "observations": [
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "You can reduce your startup time if you configure your web server to host .unityweb files using brotli compression."
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "[UnityCache] 'http://127.0.0.1:8871/playerweb.wasm.framework.unityweb' successfully downloaded and stored in the indexedDB cache"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "[UnityCache] 'http://127.0.0.1:8871/playerweb.wasm.code.unityweb' successfully downloaded and stored in the indexedDB cache"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "[UnityCache] 'http://127.0.0.1:8871/playerweb.data.unityweb' successfully downloaded and stored in the indexedDB cache"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "Loading player data from data.unity3d"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "Initialize engine version: 2018.4.36f1 (6cd387d23174)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "Creating WebGL 2.0 context."
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "Renderer: WebKit WebGL"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "Vendor:   WebKit"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "Version:  OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "GLES:     3"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": " EXT_clip_control GL_EXT_clip_control EXT_color_buffer_float GL_EXT_color_buffer_float EXT_color_buffer_half_float GL_EXT_color_buffer_half_float EXT_conservative_depth GL_EXT_conservative_depth EXT_depth_clamp GL_EXT_depth_clamp EXT_float_blend GL_EXT_float_blend EXT_polygon_offset_clamp GL_EXT_polygon_offset_clamp EXT_texture_compression_bptc GL_EXT_texture_compression_bptc EXT_texture_compression_rgtc GL_EXT_texture_compression_rgtc EXT_texture_filter_anisotropic GL_EXT_texture_filter_anisotropic EXT_texture_mirror_clamp_to_edge GL_EXT_texture_mirror_clamp_to_edge NV_shader_noperspective_interpolation GL_NV_shader_noperspective_interpolation OES_draw_buffers_indexed GL_OES_draw_buffers_indexed OES_sample_variables GL_OES_sample_variables OES_shader_multisample_interpolation GL_OES_shader_multisample_interpolation OES_texture_float_linear GL_OES_texture_float_linear OVR_multiview2 GL_OVR_multiview2 WEBGL_clip_cull_distance GL_WEBGL_clip_cull_distance WEBGL_compressed_texture_astc GL_WEBGL_compressed_textur"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "e_astc WEBGL_compressed_texture_etc GL_WEBGL_compressed_texture_etc WEBGL_compressed_texture_etc1 GL_WEBGL_compressed_texture_etc1 WEBGL_compressed_texture_s3tc GL_WEBGL_compressed_texture_s3tc WEBGL_compressed_texture_s3tc_srgb GL_WEBGL_compressed_texture_s3tc_srgb WEBGL_debug_renderer_info GL_WEBGL_debug_renderer_info WEBGL_debug_shaders GL_WEBGL_debug_shaders WEBGL_lose_context GL_WEBGL_lose_context WEBGL_multi_draw GL_WEBGL_multi_draw WEBGL_polygon_mode GL_WEBGL_polygon_mode WEBGL_stencil_texturing GL_WEBGL_stencil_texturing"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "OPENGL LOG: Creating OpenGL ES 3.0 graphics device ; Context level  <OpenGL ES 3.0> ; Context handle 1"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "UnloadTime: 7.900000 ms"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "UnloadTime: 0.900000 ms"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "The AnimationClip 'Armature.001_FELIZ' used by the Animation component 'Icaro_NovoEstilo' must be marked as Legacy."
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename:  Line: 2029)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "Default clip could not be found in attached animations list."
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename:  Line: 402)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "Unloading 5 Unused Serialized files (Serialized files now loaded: 0)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2787."
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "Total: 4.800001 ms (FindLiveObjects: 0.200000 ms CreateObjectMapping: 0.100001 ms MarkObjects: 3.500000 ms  DeleteObjects: 1.000000 ms)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "kind": "console",
+      "type": "warning",
+      "text": "[.WebGL-0x3040221d200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "warning: 2 FS.syncfs operations in flight at once, probably just doing extra work"
+    },
+    {
+      "kind": "console",
+      "type": "warning",
+      "text": "[.WebGL-0x3040221d200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "kind": "console",
+      "type": "warning",
+      "text": "[.WebGL-0x3040221d200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "kind": "console",
+      "type": "warning",
+      "text": "[.WebGL-0x3040221d200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "[AnimatedObjects] Not found SobrancelhaDirRaiva in GetBlendShapeValue"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "[AnimatedObjects] Not found SobrancelhaEsqRaiva in GetBlendShapeValue"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "[AnimatedObjects] Not found BochechaContraida in GetBlendShapeValue"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "[AnimatedObjects] Not found baixaBocaCanto_dir in GetBlendShapeValue"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "kind": "bridge",
+      "args": [
+        "onPlayingStateChange",
+        "False",
+        "False",
+        "False",
+        "False",
+        "True"
+      ]
+    },
+    {
+      "kind": "bridge",
+      "args": [
+        "GetAvatar",
+        "icaro"
+      ]
+    },
+    {
+      "kind": "bridge",
+      "args": [
+        "onLoadPlayer"
+      ]
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "Base Url is now http://127.0.0.1:8871/signs/"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "SET BASE URL TO http://127.0.0.1:8871/signs/"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "kind": "bridge",
+      "args": [
+        "onPlayingStateChange",
+        "False",
+        "False",
+        "False",
+        "False",
+        "True"
+      ]
+    },
+    {
+      "kind": "bridge",
+      "args": [
+        "onPlayingStateChange",
+        "True",
+        "False",
+        "False",
+        "True",
+        "True"
+      ]
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "warning: 2 FS.syncfs operations in flight at once, probably just doing extra work"
+    },
+    {
+      "kind": "console",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "Error while downloading Asset Bundle: Failed to decompress data for the AssetBundle 'http://127.0.0.1:8871/signs/OLA'."
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename:  Line: 165)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "[BundleLoader]: SEM CONEXÃO COM INTERNET"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "Sinal \"OLA\" foi não carregado corretamente."
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "~~ To spell: OLA"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "kind": "bridge",
+      "args": [
+        "CounterGloss",
+        0,
+        1
+      ]
+    },
+    {
+      "kind": "bridge",
+      "args": [
+        "CounterGloss",
+        1,
+        1
+      ]
+    },
+    {
+      "kind": "bridge",
+      "args": [
+        "CounterGloss",
+        2,
+        1
+      ]
+    },
+    {
+      "kind": "bridge",
+      "args": [
+        "onPlayingStateChange",
+        "False",
+        "False",
+        "False",
+        "False",
+        "True"
+      ]
+    }
+  ],
+  "requests": [
+    "http://127.0.0.1:8871/",
+    "http://127.0.0.1:8871/UnityLoader.js",
+    "http://127.0.0.1:8871/playerweb.json",
+    "http://127.0.0.1:8871/playerweb.wasm.code.unityweb",
+    "http://127.0.0.1:8871/playerweb.wasm.framework.unityweb",
+    "http://127.0.0.1:8871/playerweb.data.unityweb",
+    "http://127.0.0.1:8871/signs/OLA"
+  ],
+  "limitations": [
+    "Prova de inicialização local e ponte; não valida sinal OLA nem qualidade da soletração.",
+    "Todos os sinais externos recebem 404 deliberado; nenhum bundle de dicionário é fornecido.",
+    "Este experimento não é benchmark de latência nem prova de movimento por comparação de frames."
+  ],
+  "canvas": 1,
+  "body": "",
+  "checks": {
+    "initialized": true,
+    "canvasCreated": true,
+    "localSignRequested": true,
+    "onlyLocalRequests": true,
+    "spellingFallbackReported": true
+  },
+  "status": "PASS_INITIALIZATION_AND_MISSING_SIGN_PATH"
+}
