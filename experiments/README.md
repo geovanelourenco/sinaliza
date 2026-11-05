@@ -40,6 +40,24 @@ O resultado `PASS_INITIALIZATION_AND_MISSING_SIGN_PATH` significa: callback de c
 
 Comparar com [as observações registradas](../docs/evidence/avatar-probe.json). Os hashes dos cinco arquivos estão no [inventário do avatar](../docs/avatar-inventory.md).
 
+### Sinal conhecido: conjunto web-browsers
+
+Esse experimento usa **outro build**, com o bundle `OBRIGADO` do mesmo checkout. Não substitui nem mistura os arquivos do teste anterior. Preparar fora do repositório Sinaliza:
+
+```sh
+git clone --depth 1 --filter=blob:none --sparse https://github.com/spbgovbr-vlibras/vlibras-web-browsers.git /tmp/sinaliza-browser-reference
+git -C /tmp/sinaliza-browser-reference fetch origin be3fa2506a7c43e36e2ba551483cb5f89388d495
+git -C /tmp/sinaliza-browser-reference checkout --detach be3fa2506a7c43e36e2ba551483cb5f89388d495
+git -C /tmp/sinaliza-browser-reference sparse-checkout set --no-cone '/public/unity/' '/public/assets/bundles/OBRIGADO' '/src/player/unity/playerweb.json'
+node experiments/avatar-known-sign-probe.cjs --assets /tmp/sinaliza-browser-reference/public/unity --manifest /tmp/sinaliza-browser-reference/src/player/unity/playerweb.json --bundle /tmp/sinaliza-browser-reference/public/assets/bundles/OBRIGADO --output /tmp/sinaliza-known-sign-result.json --playwright-module /tmp/sinaliza-probe-tools/node_modules/playwright --chromium /usr/bin/chromium
+```
+
+Reutilizar o Playwright instalado no exemplo anterior. `--frames-dir DIR` é opcional; sem ele, o script captura frames em memória e registra somente seus hashes. Não adicionar imagens ou ativos ao repositório. Os arquivos devem corresponder aos hashes registrados na [evidência observada](../docs/evidence/browser-known-sign-probe.json).
+
+O probe retorna `PASS_KNOWN_BUNDLE_TECHNICAL_PLAYBACK` somente após servir o bundle, observar seu carregamento, início/fim de reprodução, ausência de fallback e frames diferentes dentro da janela de reprodução. Não usa o estado ocioso inicial como conclusão. O resultado não certifica qualidade linguística, sequência, parada ou permissão de redistribuição. Os timestamps não são benchmark da primeira animação.
+
+Para repetir a análise REA desse loader, usar um diretório contendo somente `public/unity/unity-loader.js`, com o mesmo procedimento abaixo e uma saída nova. Não confundir essa evidência com a análise do loader `player-webjs`.
+
 ## REA
 
 Origem da skill: [SKILL.md no commit fixado](https://github.com/morluto/rea/blob/fe677f6cf9853fb12490dfb8ef23ccae3a551049/.agents/skills/reverse-engineer-anything/SKILL.md). Ler o arquivo e suas referências pertinentes antes de executar a CLI. A skill pode ser instalada manualmente em um diretório de skills gravável e carregada pelo agente. Não presumir que essa instalação registra um servidor MCP.

@@ -1,0 +1,2733 @@
+{
+  "startedAt": "2026-11-05T13:55:35.723Z",
+  "environment": {
+    "node": "v24.22.1",
+    "playwright": "1.62.1",
+    "chromium": "155.0.8059.79"
+  },
+  "files": [
+    {
+      "url": "/playerweb.json",
+      "bytes": 437,
+      "sha256": "5974da454989392935df50e0750c5cfd124f80ed449862f95d52f5c01aa2bbad"
+    },
+    {
+      "url": "/signs/OBRIGADO",
+      "bytes": 17094,
+      "sha256": "f313d45a631e372e2243607ec5e9869dbb623f68de8bd06b0183d6872212071e"
+    },
+    {
+      "url": "/unity-loader.js",
+      "bytes": 150016,
+      "sha256": "c1845b1e35a2784f237391802e36009872d9ae587a94c2ee5a66546696af4a88"
+    },
+    {
+      "url": "/playerweb.data.unityweb",
+      "bytes": 16992528,
+      "sha256": "0c9897ea830739a09a8a2d132e219761d7017b22feae5ec9b2feb4ed075b1256"
+    },
+    {
+      "url": "/playerweb.wasm.code.unityweb",
+      "bytes": 2996753,
+      "sha256": "4005cfe27f5252c8dafaccbca4c1338de9491c5076a62da8df2bfd036d6eeb4e"
+    },
+    {
+      "url": "/playerweb.wasm.framework.unityweb",
+      "bytes": 76883,
+      "sha256": "7177d7748ffd7715e1150e202924f3d502df7531b672ccf6a39291cf8ccba3fb"
+    }
+  ],
+  "observations": [
+    {
+      "ms": 1368,
+      "kind": "console",
+      "type": "log",
+      "text": "You can reduce your startup time if you configure your web server to host .unityweb files using brotli compression."
+    },
+    {
+      "ms": 5255,
+      "kind": "console",
+      "type": "log",
+      "text": "Loading player data from data.unity3d"
+    },
+    {
+      "ms": 5287,
+      "kind": "console",
+      "type": "log",
+      "text": "Initialize engine version: 2018.4.36f1 (6cd387d23174)"
+    },
+    {
+      "ms": 5288,
+      "kind": "console",
+      "type": "log",
+      "text": "Creating WebGL 1.0 context."
+    },
+    {
+      "ms": 5327,
+      "kind": "console",
+      "type": "log",
+      "text": "Renderer: WebKit WebGL"
+    },
+    {
+      "ms": 5331,
+      "kind": "console",
+      "type": "log",
+      "text": "Vendor:   WebKit"
+    },
+    {
+      "ms": 5331,
+      "kind": "console",
+      "type": "log",
+      "text": "Version:  OpenGL ES 2.0 (WebGL 1.0 (OpenGL ES 2.0 Chromium))"
+    },
+    {
+      "ms": 5334,
+      "kind": "console",
+      "type": "log",
+      "text": "GLES:     2"
+    },
+    {
+      "ms": 5334,
+      "kind": "console",
+      "type": "log",
+      "text": " ANGLE_instanced_arrays GL_ANGLE_instanced_arrays EXT_blend_minmax GL_EXT_blend_minmax EXT_clip_control GL_EXT_clip_control EXT_color_buffer_half_float GL_EXT_color_buffer_half_float EXT_depth_clamp GL_EXT_depth_clamp EXT_float_blend GL_EXT_float_blend EXT_frag_depth GL_EXT_frag_depth EXT_polygon_offset_clamp GL_EXT_polygon_offset_clamp EXT_shader_texture_lod GL_EXT_shader_texture_lod EXT_texture_compression_bptc GL_EXT_texture_compression_bptc EXT_texture_compression_rgtc GL_EXT_texture_compression_rgtc EXT_texture_filter_anisotropic GL_EXT_texture_filter_anisotropic EXT_texture_mirror_clamp_to_edge GL_EXT_texture_mirror_clamp_to_edge EXT_sRGB GL_EXT_sRGB OES_element_index_uint GL_OES_element_index_uint OES_fbo_render_mipmap GL_OES_fbo_render_mipmap OES_standard_derivatives GL_OES_standard_derivatives OES_texture_float GL_OES_texture_float OES_texture_float_linear GL_OES_texture_float_linear OES_texture_half_float GL_OES_texture_half_float OES_texture_half_float_linear GL_OES_texture_half_float_linear OES_v"
+    },
+    {
+      "ms": 5334,
+      "kind": "console",
+      "type": "log",
+      "text": "ertex_array_object GL_OES_vertex_array_object WEBGL_color_buffer_float GL_WEBGL_color_buffer_float WEBGL_compressed_texture_astc GL_WEBGL_compressed_texture_astc WEBGL_compressed_texture_etc GL_WEBGL_compressed_texture_etc WEBGL_compressed_texture_etc1 GL_WEBGL_compressed_texture_etc1 WEBGL_compressed_texture_s3tc GL_WEBGL_compressed_texture_s3tc WEBGL_compressed_texture_s3tc_srgb GL_WEBGL_compressed_texture_s3tc_srgb WEBGL_debug_renderer_info GL_WEBGL_debug_renderer_info WEBGL_debug_shaders GL_WEBGL_debug_shaders WEBGL_depth_texture GL_WEBGL_depth_texture WEBGL_draw_buffers GL_WEBGL_draw_buffers WEBGL_lose_context GL_WEBGL_lose_context WEBGL_multi_draw GL_WEBGL_multi_draw WEBGL_polygon_mode GL_WEBGL_polygon_mode"
+    },
+    {
+      "ms": 5346,
+      "kind": "console",
+      "type": "log",
+      "text": "OPENGL LOG: Creating OpenGL ES 2.0 graphics device ; Context level  <OpenGL ES 2.0> ; Context handle 1"
+    },
+    {
+      "ms": 5487,
+      "kind": "console",
+      "type": "log",
+      "text": "UnloadTime: 5.700000 ms"
+    },
+    {
+      "ms": 5866,
+      "kind": "console",
+      "type": "log",
+      "text": "UnloadTime: 1.600000 ms"
+    },
+    {
+      "ms": 6005,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6005,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6006,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6007,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6007,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6008,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6008,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6009,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6009,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6010,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6010,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6011,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6011,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6012,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6013,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6013,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6014,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6015,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6016,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6018,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6018,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6019,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6019,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6020,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6021,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6022,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6022,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6022,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6023,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6025,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6025,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6026,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6026,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Mapeamento concluído! 0 bones foram encontrados e configurados."
+    },
+    {
+      "ms": 6027,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6028,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6028,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6030,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6031,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6034,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6035,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6035,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6035,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6036,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6036,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6037,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6037,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6040,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6040,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6041,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6044,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6045,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6045,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6046,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6047,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6047,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6049,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6049,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6050,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6050,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6051,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6052,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6053,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6053,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6053,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6054,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6055,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6056,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6056,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6056,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Mapeamento concluído! 0 bones foram encontrados e configurados."
+    },
+    {
+      "ms": 6057,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6057,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6057,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6059,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6062,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6062,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6062,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6064,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6064,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6065,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6065,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6066,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6067,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6067,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6068,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6069,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6069,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6069,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6070,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6070,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6070,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6075,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6076,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6076,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6076,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6077,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6077,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6077,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6077,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6080,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6080,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6081,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6082,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6083,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6083,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6084,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Mapeamento concluído! 0 bones foram encontrados e configurados."
+    },
+    {
+      "ms": 6085,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6086,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6086,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6087,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6088,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6088,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6090,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6090,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6091,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6092,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6094,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6094,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6094,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6094,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6095,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6095,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6097,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6098,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6098,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6098,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6098,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6098,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6098,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6098,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6099,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6100,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6100,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6101,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6101,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6102,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6104,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6106,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6107,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6107,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6107,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6108,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Mapeamento concluído! 0 bones foram encontrados e configurados."
+    },
+    {
+      "ms": 6108,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6108,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6108,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6137,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6137,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6137,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6137,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6137,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6137,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6142,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6142,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6142,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6142,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6142,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6142,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6142,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6143,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6143,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6148,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6148,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6148,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6148,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6148,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6148,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6148,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6148,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6149,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6149,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6149,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6151,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6151,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6151,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6151,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6151,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6151,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6151,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Mapeamento concluído! 0 bones foram encontrados e configurados."
+    },
+    {
+      "ms": 6151,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6151,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6155,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6155,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6155,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6155,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6155,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6155,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6155,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6155,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6155,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6155,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6156,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6156,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6156,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6156,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6156,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6156,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6156,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6158,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6158,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6158,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6158,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6158,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6158,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6158,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6159,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6159,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6159,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6159,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6159,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6160,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6160,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6160,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6160,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6160,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Mapeamento concluído! 0 bones foram encontrados e configurados."
+    },
+    {
+      "ms": 6160,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6161,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6161,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6161,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6162,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6162,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6162,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6162,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6165,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6165,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6166,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6166,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6166,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6167,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6167,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6170,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6170,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6178,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6180,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6186,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6186,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6186,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6186,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6186,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6186,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6195,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6196,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6196,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6196,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6196,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6196,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6196,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6196,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6196,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6197,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6204,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Mapeamento concluído! 0 bones foram encontrados e configurados."
+    },
+    {
+      "ms": 6204,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6204,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6205,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6205,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6205,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6205,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6205,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6205,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6205,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6205,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6209,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6209,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6209,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6209,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6209,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6209,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6209,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6209,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6209,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6209,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6211,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6211,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6211,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6211,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6211,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6211,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6211,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6211,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6211,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6211,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6212,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6212,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6212,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6212,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6212,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6212,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Mapeamento concluído! 0 bones foram encontrados e configurados."
+    },
+    {
+      "ms": 6212,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6212,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6212,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6212,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6241,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6241,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6241,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6241,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnPalpebSuper_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6241,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6241,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6241,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6241,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6241,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6242,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6245,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6245,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancLateral_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6245,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6245,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6245,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6245,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6245,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6245,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6245,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6249,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnSobrancCentro_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6249,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6249,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6249,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6249,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_L' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6253,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6253,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6253,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6253,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Bone 'BnBocaCanto_R' não foi encontrado dentro de BnCabeca."
+    },
+    {
+      "ms": 6253,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6253,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6253,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6253,
+      "kind": "console",
+      "type": "log",
+      "text": "[AvatarFaceManager] Mapeamento concluído! 0 bones foram encontrados e configurados."
+    },
+    {
+      "ms": 6253,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 6254,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 6254,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6254,
+      "kind": "console",
+      "type": "log",
+      "text": "Unloading 6 Unused Serialized files (Serialized files now loaded: 0)"
+    },
+    {
+      "ms": 6258,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6258,
+      "kind": "console",
+      "type": "log",
+      "text": "Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2149."
+    },
+    {
+      "ms": 6258,
+      "kind": "console",
+      "type": "log",
+      "text": "Total: 4.700000 ms (FindLiveObjects: 0.500000 ms CreateObjectMapping: 0.000000 ms MarkObjects: 3.600000 ms  DeleteObjects: 0.600000 ms)"
+    },
+    {
+      "ms": 6258,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 6416,
+      "kind": "console",
+      "type": "warning",
+      "text": "[.WebGL-0x2cfc03f6f000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "ms": 6436,
+      "kind": "console",
+      "type": "warning",
+      "text": "[.WebGL-0x2cfc03f6f000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "ms": 6456,
+      "kind": "console",
+      "type": "warning",
+      "text": "[.WebGL-0x2cfc03f6f000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "ms": 6474,
+      "kind": "console",
+      "type": "warning",
+      "text": "[.WebGL-0x2cfc03f6f000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    },
+    {
+      "ms": 8372,
+      "kind": "console",
+      "type": "log",
+      "text": "SCRIPT ATIVO? True | GO ativo? True"
+    },
+    {
+      "ms": 8375,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 8375,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 8377,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 8383,
+      "kind": "console",
+      "type": "log",
+      "text": "[AnimatedObjects] Not found SobrancelhaDirRaiva in GetBlendShapeValue"
+    },
+    {
+      "ms": 8384,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 8389,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 8390,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 8390,
+      "kind": "console",
+      "type": "log",
+      "text": "[AnimatedObjects] Not found SobrancelhaEsqRaiva in GetBlendShapeValue"
+    },
+    {
+      "ms": 8390,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 8393,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 8394,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 8395,
+      "kind": "console",
+      "type": "log",
+      "text": "[AnimatedObjects] Not found baixaBocaCanto_dir in GetBlendShapeValue"
+    },
+    {
+      "ms": 8399,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 8399,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 8399,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 8418,
+      "kind": "bridge",
+      "args": [
+        "onPlayingStateChange",
+        "False",
+        "False",
+        "False",
+        "False",
+        "True"
+      ]
+    },
+    {
+      "ms": 8422,
+      "kind": "bridge",
+      "args": [
+        "GetAvatar",
+        "icaro"
+      ]
+    },
+    {
+      "ms": 8423,
+      "kind": "bridge",
+      "args": [
+        "onLoadPlayer"
+      ]
+    },
+    {
+      "ms": 10365,
+      "kind": "console",
+      "type": "log",
+      "text": "Base Url is now http://127.0.0.1:8872/signs/"
+    },
+    {
+      "ms": 10365,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 10365,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 10369,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 10369,
+      "kind": "console",
+      "type": "log",
+      "text": "SET BASE URL TO http://127.0.0.1:8872/signs/"
+    },
+    {
+      "ms": 10369,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 10369,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 10369,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 10369,
+      "kind": "bridge",
+      "args": [
+        "CounterGloss",
+        0,
+        0
+      ]
+    },
+    {
+      "ms": 10370,
+      "kind": "console",
+      "type": "log",
+      "text": "[EmotionController] Nova intensidade: 0"
+    },
+    {
+      "ms": 10370,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 10371,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 10371,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 10372,
+      "kind": "console",
+      "type": "log",
+      "text": "[AnimatedObjects] Not found SobrancelhaDirRaiva in GetBlendShapeValue"
+    },
+    {
+      "ms": 10372,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 10372,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 10372,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 10377,
+      "kind": "console",
+      "type": "log",
+      "text": "[AnimatedObjects] Not found SobrancelhaEsqRaiva in GetBlendShapeValue"
+    },
+    {
+      "ms": 10377,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 10377,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 10377,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 10377,
+      "kind": "console",
+      "type": "log",
+      "text": "[AnimatedObjects] Not found baixaBocaCanto_dir in GetBlendShapeValue"
+    },
+    {
+      "ms": 10378,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 10378,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 10378,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 10378,
+      "kind": "bridge",
+      "args": [
+        "onPlayingStateChange",
+        "False",
+        "False",
+        "False",
+        "False",
+        "True"
+      ]
+    },
+    {
+      "ms": 10379,
+      "kind": "bridge",
+      "args": [
+        "onPlayingStateChange",
+        "True",
+        "False",
+        "False",
+        "True",
+        "True"
+      ]
+    },
+    {
+      "ms": 10508,
+      "kind": "console",
+      "type": "log",
+      "text": "[BundleLoader]: BUNDLE (OBRIGADO) CARREGADO COM SUCESSO"
+    },
+    {
+      "ms": 10509,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 10509,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 10510,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 10513,
+      "kind": "console",
+      "type": "log",
+      "text": "Bundle \"OBRIGADO\" loaded!"
+    },
+    {
+      "ms": 10513,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 10513,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 10514,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 10673,
+      "kind": "console",
+      "type": "log",
+      "text": "warning: 2 FS.syncfs operations in flight at once, probably just doing extra work"
+    },
+    {
+      "ms": 14349,
+      "kind": "bridge",
+      "args": [
+        "CounterGloss",
+        1,
+        1
+      ]
+    },
+    {
+      "ms": 14359,
+      "kind": "console",
+      "type": "log",
+      "text": "[EmotionController] Nova intensidade: 0"
+    },
+    {
+      "ms": 14359,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 14360,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 14360,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 14360,
+      "kind": "console",
+      "type": "log",
+      "text": "[AnimatedObjects] Not found SobrancelhaDirRaiva in GetBlendShapeValue"
+    },
+    {
+      "ms": 14360,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 14360,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 14360,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 14360,
+      "kind": "console",
+      "type": "log",
+      "text": "[AnimatedObjects] Not found SobrancelhaEsqRaiva in GetBlendShapeValue"
+    },
+    {
+      "ms": 14360,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 14360,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 14360,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 14362,
+      "kind": "console",
+      "type": "log",
+      "text": "[AnimatedObjects] Not found baixaBocaCanto_dir in GetBlendShapeValue"
+    },
+    {
+      "ms": 14362,
+      "kind": "console",
+      "type": "log",
+      "text": " "
+    },
+    {
+      "ms": 14362,
+      "kind": "console",
+      "type": "log",
+      "text": "(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)"
+    },
+    {
+      "ms": 14363,
+      "kind": "console",
+      "type": "log",
+      "text": ""
+    },
+    {
+      "ms": 14363,
+      "kind": "bridge",
+      "args": [
+        "onPlayingStateChange",
+        "False",
+        "False",
+        "False",
+        "False",
+        "True"
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "ms": 168,
+      "url": "http://127.0.0.1:8872/",
+      "status": 200
+    },
+    {
+      "ms": 251,
+      "url": "http://127.0.0.1:8872/unity-loader.js",
+      "status": 200
+    },
+    {
+      "ms": 480,
+      "url": "http://127.0.0.1:8872/playerweb.json",
+      "status": 200
+    },
+    {
+      "ms": 582,
+      "url": "http://127.0.0.1:8872/playerweb.wasm.code.unityweb",
+      "status": 200
+    },
+    {
+      "ms": 643,
+      "url": "http://127.0.0.1:8872/playerweb.wasm.framework.unityweb",
+      "status": 200
+    },
+    {
+      "ms": 645,
+      "url": "http://127.0.0.1:8872/playerweb.data.unityweb",
+      "status": 200
+    },
+    {
+      "ms": 10398,
+      "url": "http://127.0.0.1:8872/signs/OBRIGADO",
+      "status": 200
+    }
+  ],
+  "frames": [
+    {
+      "label": "loaded",
+      "ms": 10183,
+      "sha256": "79cc22b819bf6c948c2e33ec45d21cef32b934c147bcb38253a4d9f734198946",
+      "bytes": 2503
+    },
+    {
+      "label": "play-0",
+      "ms": 11263,
+      "sha256": "f7a4d13307efdee072c4dd0eedbff96b73ed35de115ec3151ccdfcf97f062d25",
+      "bytes": 61969
+    },
+    {
+      "label": "play-1",
+      "ms": 12347,
+      "sha256": "26e6cc19b9706ecba29eb2302734cff106371a86dfa7a01859186688be31818d",
+      "bytes": 62515
+    },
+    {
+      "label": "play-2",
+      "ms": 13385,
+      "sha256": "c666b6439d2fa04dc2fd6563bd97675bf8fafb79cdb3931ee254d0163eaee352",
+      "bytes": 67210
+    },
+    {
+      "label": "play-3",
+      "ms": 14346,
+      "sha256": "a534b6075c6930bda57cb6bd9870b47d94215f27114744ec5bb6ebc98eec5f59",
+      "bytes": 67263
+    },
+    {
+      "label": "play-4",
+      "ms": 15380,
+      "sha256": "7335bb73a067300269d2a16f4a9acd007cbedf11b3d7477835eee81af6e30eb8",
+      "bytes": 62254
+    },
+    {
+      "label": "play-5",
+      "ms": 16373,
+      "sha256": "e8f41bc853f143997818951a911786db0d1783fd183bacaa5077d20b737d9b3b",
+      "bytes": 62214
+    },
+    {
+      "label": "play-6",
+      "ms": 17395,
+      "sha256": "ae1aa5faf8f81d90d4156b34fe7f0218e027e5f7e1064fd2d2738c113d89c4c7",
+      "bytes": 61868
+    },
+    {
+      "label": "play-7",
+      "ms": 18637,
+      "sha256": "7904b8d24ef5a3b40b486848ce54eb018d028464552c1c5a295d5cd597e8098e",
+      "bytes": 61892
+    },
+    {
+      "label": "play-8",
+      "ms": 19682,
+      "sha256": "905ed5562f83c9d15a048d0d1b0c3a335518396f4d05c01eafa0a531e6fbf998",
+      "bytes": 61987
+    },
+    {
+      "label": "play-9",
+      "ms": 20644,
+      "sha256": "08db23bb052c5a461ceea7c505d03320f4914bb236e1255c5e8e5785e29170da",
+      "bytes": 62110
+    },
+    {
+      "label": "play-10",
+      "ms": 21674,
+      "sha256": "53ee9eaf00e2b8a7fb7bdade61dfce351244bd192017c574ace75969135d88f4",
+      "bytes": 62286
+    },
+    {
+      "label": "play-11",
+      "ms": 22772,
+      "sha256": "da08a50fbc51c78f068060b439d2bdb7955700810c69d2a3eb659194c8c3e7c1",
+      "bytes": 61959
+    }
+  ],
+  "limitations": [
+    "Valida carregamento e reprodução técnica do bundle OBRIGADO. Não valida correção linguística.",
+    "Não é benchmark. Frames locais não são redistribuídos no JSON."
+  ],
+  "playStartedMs": 10187,
+  "canvas": 1,
+  "playbackWindow": {
+    "playingMs": 10379,
+    "finishedMs": 14363,
+    "frameLabels": [
+      "play-0",
+      "play-1",
+      "play-2",
+      "play-3"
+    ]
+  },
+  "checks": {
+    "initialized": true,
+    "bundleServed": true,
+    "onlyLocalRequests": true,
+    "playingState": true,
+    "finishedState": true,
+    "noSpellingFallback": true,
+    "differentPlaybackFrames": true,
+    "bundleLoadReported": true
+  },
+  "status": "PASS_KNOWN_BUNDLE_TECHNICAL_PLAYBACK"
+}

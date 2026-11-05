@@ -2,6 +2,8 @@
 
 Data: 2026-11-05. Escopo: fonte pública e execução isolada. Nenhum ativo upstream foi incorporado ao repositório Sinaliza.
 
+**Nota de atualização:** este relatório preserva a prova inicial do build `player-webjs`, com o sinal `OLA` ausente. A [revisão complementar](additional-repositories.md) encontrou o bundle `OBRIGADO` em `web-browsers` e validou sua reprodução técnica com outro build. As lacunas abaixo relativas à prova inicial não negam esse resultado novo. Direitos dos recursos e validação de sequência/parada permanecem pendentes.
+
 ## Identidades fixadas
 
 | Componente | Commit | Versão observada | Papel |

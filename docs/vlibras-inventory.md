@@ -18,12 +18,15 @@ O [portal do Governo Digital](https://www.gov.br/governodigital/pt-br/acessibili
 | `vlibras-dictionary-repository` | `bf1ed09187d347112ee84f1b9e312d267728fc76` | Metadados e armazenamento; não fornece os bundles no checkout. |
 | `vlibras-mobile-cross-platform` | `caa9f0f4616389f62c7d4aa62f12cea2990f02f8` | Confirma ponte JS/Unity em outro consumidor. |
 | `libraske-player` | `3cec52d6eee836c94d1dec5d88b514d2d73a07ad` | Fonte C# relacionada. Não corresponde comprovadamente ao build playerweb. |
+| `vlibras-web-browsers` | 7.12.3; `be3fa2506a7c43e36e2ba551483cb5f89388d495` | Consumidor TypeScript, outro build Unity e bundle `OBRIGADO`; reprodução técnica local validada. |
+| `libraske-processor` | `49ffaedfc1f9edd753ebd3e4c7c8dcd95fa717dc` | Imagens → landmarks → pontuação gestual. Examinado e dispensado; fora do escopo V1. |
 
 Os relatórios abaixo contêm links por commit, caminhos internos dos artefatos, símbolos, formatos, tamanhos, dependências e licenças:
 
 - [Tradutor, regras, modelos e dados](translator-inventory.md).
 - [Avatar, ponte e dicionários de animações](avatar-inventory.md).
 - [REA, execução, métricas e limites](investigation.md).
+- [Revisão dos repositórios adicionais e seu impacto](additional-repositories.md).
 
 ## Fluxo e menor conjunto
 
@@ -41,13 +44,15 @@ texto
 
 O menor conjunto **demonstrado para tradução por regras** é Python 3.12, pacote fixado, dependências, modelo spaCy e dados locais. Não exige API HTTP, RabbitMQ, Redis, MongoDB, PostgreSQL ou LLM. Isso não demonstra equivalência com o modo neural padrão do serviço.
 
-O menor conjunto proposto para avatar é ponte JS, loader/build Unity e bundles locais compatíveis. O build e a ponte foram executados; falta validar um bundle de sinal conhecido. `Player.translate()` e a configuração remota do wrapper não devem entrar no módulo local independente.
+O menor conjunto proposto para avatar é ponte JS, loader/build Unity e bundles locais compatíveis. A prova inicial executou build e ponte, mas não tinha sinal conhecido. A revisão complementar encontrou e executou `OBRIGADO` com o build distinto de `web-browsers`. Usar esse conjunto fixado como referência técnica unitária. Ainda faltam direitos individuais, validação de sequência/parada e correção linguística. `Player.translate()` e a configuração remota dos consumidores não devem entrar no módulo local independente.
 
 ## Decisões de reutilização
 
 - **Reutilizar, condicionado às permissões:** núcleo Python e recursos efetivamente necessários, com versões e hashes fixados; manter regras intactas na extração inicial.
 - **Adaptar:** formato de resultado, carregamento de recursos, fila local e ponte Unity. São propostas Sinaliza, não capacidades já implementadas.
+- **Referência adicional do avatar:** conjunto `web-browsers`/`OBRIGADO` para testes de sinal conhecido; manter `player-webjs` separado, sem inferir intercâmbio binário. Os arquivos upstream não integram este PR.
 - **Excluir do caminho principal:** serviços HTTP, bancos, filas externas, refinador LLM e download automático de pesos.
+- **Dispensar:** Libraskê Processor. Avaliação de gestos em imagens não acrescenta regras de tradução, glosas, sessões de texto ou recursos Unity.
 - **Não incorporar por enquanto:** modelos/rigs/texturas, bundles externos, pesos neurais e dados sem proveniência discriminada. Nenhum desses ativos foi adicionado ao repositório Sinaliza.
 
 ## Licenças e lacunas

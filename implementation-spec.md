@@ -14,6 +14,8 @@
 
 **Observado:** o player utiliza JavaScript e um build Unity WebGL. A ponte aceita glosas sem chamar o tradutor. O build renderizou o avatar localmente no Chromium. A tentativa de reproduzir `OLA` encontrou um bundle ausente e acionou soletração. Isso não valida um sinal conhecido. O repositório de dicionário contém serviços e metadados; não contém o catálogo de animações necessário para a V1.
 
+**Achado complementar:** `vlibras-web-browsers` 7.12.3, commit `be3fa2506a7c43e36e2ba551483cb5f89388d495`, inclui o bundle `OBRIGADO` e outro build Unity. Esse conjunto carregou o bundle e reproduziu movimento localmente, com conclusão e sem fallback de soletração. A prova é técnica; não valida a correção linguística nem a licença individual. Usar esse conjunto fixado como referência do sinal conhecido. Manter o build de `player-webjs` como perfil separado do teste de recurso ausente. Ver [revisão complementar](docs/additional-repositories.md).
+
 **Observado:** o serviço seleciona tradução neural por padrão; o experimento executou somente regras. Os resultados medidos não demonstram equivalência com o serviço em produção. A licença dos pesos neurais não foi localizada no snapshot inspecionado.
 
 **Proposta:** extrair primeiro a execução local baseada em regras. Manter o motor Python como única implementação linguística. Não portar regras para Go ou JavaScript nesta versão. Não copiar os serviços de infraestrutura. A proposta depende da aprovação explícita deste perfil de referência; ele não substitui silenciosamente o modo neural.
@@ -24,11 +26,11 @@
 |---|---|---|
 | Núcleo e sessões | Python 3.12; pacote upstream 1.3.3 fixado por SHA-256 | Execução real validada; preserva regras e recursos. Não implica menor inicialização. |
 | Binding Node.js | TypeScript; processo Python persistente, protocolo JSON Lines por stdin/stdout | Reutiliza o mesmo núcleo. Sem HTTP, fila ou banco obrigatório. O consumidor instala o runtime Python. |
-| Avatar web | TypeScript; adaptador da ponte Unity existente | Renderização local comprovada. Redistribuição e reprodução de um sinal conhecido ainda bloqueadas. |
+| Avatar web | TypeScript; adaptador da ponte Unity existente | Reprodução técnica unitária comprovada com `web-browsers`/`OBRIGADO`. Direitos, sequência/parada e validação linguística pendentes. |
 | Tradução no navegador | Prova de viabilidade Python/WebAssembly em Web Worker antes de anunciar suporte | spaCy e suas dependências nativas exigem validação específica. Instalar um wheel Python puro não resolve essas dependências. |
 | Go | Não adotar para o núcleo nesta proposta | Exigiria portar ou encapsular o motor; não há medição que justifique esse custo. |
 
-O suporte inicial **comprovado nesta investigação** é o tradutor upstream em CPython e a renderização do build de avatar em Chromium. Não existe biblioteca Sinaliza pronta. Não existe prova de tradução em navegador nem de binding Node.
+O suporte inicial **comprovado nesta investigação** é o tradutor upstream em CPython, a renderização dos builds de avatar em Chromium e a reprodução técnica do bundle `OBRIGADO` no conjunto `web-browsers`. Não existe biblioteca Sinaliza pronta. Não existe prova de tradução em navegador nem de binding Node.
 
 O alvo do experimento de navegador é executar o mesmo pacote e recursos em Python/WebAssembly, dentro de Worker, com arquivos locais pré-instalados. A prova deve traduzir o corpus de referência com rede externa bloqueada, medir memória, inicialização e tamanho, e comparar as glosas. Não substituir spaCy por tokenizador simplificado para declarar sucesso.
 
@@ -113,6 +115,10 @@ interface AvatarPlayer {
 
 Criar o player com elemento de montagem, caminhos locais do build e manifesto de sinais. Concluir a inicialização apenas no callback `onLoadPlayer`. Enfileirar glosas não inicia reprodução. `play()` inicia a fila; `stop()` chama a ponte `stopAll` e esvazia o trabalho ainda pendente. Somente glosas confirmadas entram na integração automática; glosas diretas também são aceitas.
 
+Fixar cada perfil do avatar como um conjunto de loader, manifesto, dados Unity, WASM e bundles, com origem, commit e hashes. Não misturar os dois builds investigados nem presumir compatibilidade entre seus bundles. Para o primeiro teste de sinal conhecido, usar o conjunto `web-browsers` e o bundle `OBRIGADO`, cujo SHA-256 é `f313d45a631e372e2243607ec5e9869dbb623f68de8bd06b0183d6872212071e`. Seus arquivos permanecem externos ao pacote Sinaliza até confirmação de B4.
+
+Normalizar explicitamente os estados dos callbacks Unity: o runtime observado transmite strings `'True'`/`'False'`. Não usar coerção booleana genérica. Considerar a sequência de estado de reprodução e `CounterGloss` depois do comando atual; um estado ocioso emitido na inicialização não comprova conclusão. A ponte TypeScript de `web-browsers` serve como referência adicional; sua requisição HTTP de tradução e seu cancelamento global não entram no núcleo nem substituem sessões independentes.
+
 O formato upstream observado é **Unity AssetBundle**, selecionado por glosa, versão, plataforma e região nos serviços de dicionário. O build consulta `baseUrl + glosa`; não recebe JSON de keyframes. O manifesto local proposto mapeia essa mesma identidade para caminho e SHA-256 do bundle. Não converter para um formato de animação inventado.
 
 Preservar marcadores no resultado de tradução. Resolver no avatar quais são comandos, sinais ou entradas sem recurso, com fixtures obtidas do build e dos bundles reais. Registrar glosa não suportada. Não chamar o dicionário remoto como fallback. A política inicial é informar `ASSET_MISSING` e pular o item; soletração automática só será anunciada após validação com os recursos e atribuições correspondentes. A prova atual de fallback não comprova sua correção linguística.
@@ -125,7 +131,7 @@ Preservar marcadores no resultado de tradução. Resolver no avatar quais são c
 | B2 | Licença/proveniência dos dados internos do tradutor não discriminadas por recurso | Manifesto com base de uso e redistribuição de cada arquivo incorporado, incluindo `tagger.pkl` e tabelas. |
 | B3 | Pesos neurais sem licença localizada; referência executada usa regras | Aprovar explicitamente a referência por regras; se equivalência neural for necessária, obter pesos e permissões, executar e rever esta especificação. |
 | B4 | Licenças de animações, modelos de avatar e runtime Unity não confirmadas separadamente | Confirmar direitos, atribuições e condições de redistribuição por categoria. Não extrair ativo de licença desconhecida para pacote público. |
-| B5 | Falta bundle conhecido compatível com este build | Obter recurso permitido e validar download local, seleção, animação correta e conclusão da fila. |
+| B5 | Bundle `OBRIGADO` encontrado e reprodução técnica unitária validada com o build correspondente; sequência, parada e validação linguística ainda pendentes | Validar sequência e `stop()` com recursos permitidos, incluindo seleção e conclusão corretas. A prova unitária não remove B4 nem substitui esses testes. |
 
 Esses bloqueios impedem declarar a V1 concluída. Aprovar o documento não os transforma em critérios aprovados nem autoriza redistribuição de recursos sem permissão.
 
@@ -141,7 +147,7 @@ Testar:
 
 - Tradução: vazio, acentos, números, perguntas, pontuação, texto longo, língua não suportada e recurso ausente. Comparar a string upstream com a sequência serializada sem reordenar glosas. Usar somente corpus e recursos com permissão.
 - Sessões: fragmentos e substituições do pendente; revisões fora de tempo descartadas; confirmação sem duplicação; `flush`, `close`, `cancel`; erro fatal; consumidor lento; filas cheias; múltiplas sessões; concorrência com chamadas diretas. Validar ausência de crescimento ilimitado e de vazamento de estado.
-- Avatar: inicialização, glosa conhecida, glosa ausente, marcadores, sequência, parada, fila e conclusão. Bloquear rede externa e verificar que só recursos locais são usados. Renderização de um canvas, isoladamente, não satisfaz o aceite de animação.
+- Avatar: inicialização, glosa conhecida, glosa ausente, marcadores, sequência, parada, fila e conclusão. Usar o conjunto `web-browsers`/`OBRIGADO` para a referência unitária e preservar o teste anterior de sinal ausente como perfil separado. Testar strings de estado Unity, eventos ociosos anteriores ao comando e isolamento entre perfis. Bloquear rede externa e verificar que só recursos locais são usados. Renderização de um canvas, isoladamente, não satisfaz o aceite de animação.
 - Integração: medir tempo até a primeira glosa provisória, primeira confirmada e primeira animação. Usar um replay temporizado de eventos de transcrição como adaptador de referência, sem ASR próprio. Separar seus timestamps do tempo do tradutor e do avatar.
 - Distribuição: instalar em consumidor limpo; importar módulos independentemente; executar exemplos offline em cada ambiente anunciado. Registrar limitações de SO e navegador. Exigir manifesto completo de recursos e atribuições.
 
